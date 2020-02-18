@@ -1,5 +1,8 @@
 import React from 'react' 
 import M from 'materialize-css'; 
+import '../styles/nav/navbar.css'
+
+const image = require('./The-Hang-Gang-Round-Final-1.jpg')
 
 export default class Navbar extends React.Component{
     constructor(){
@@ -11,30 +14,31 @@ export default class Navbar extends React.Component{
     }
 
     render(){
-        return(
+        return( 
             <div>
-                <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="#!">one</a></li>
-                    <li><a href="#!">two</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">three</a></li>
-                </ul>
-                <nav className='blue-text text-darken-2'>
-                    <div class="nav-wrapper">
-                        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>                 
-                        <a href="#!" class="brand-logo ">Hang Gang</a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="sass.html">Sign Up</a></li>
-                            <li><a href="badges.html">Log In</a></li>                        
-                        </ul>
-                    </div>
+                <nav>
+                  <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Hang Gang</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                      <li><a href="sass.html">Sass</a></li>
+                      <li><a href="badges.html">Components</a></li>
+                      <li><a href="collapsible.html">Javascript</a></li>
+                      <li><a href="mobile.html">Mobile</a></li>
+                    </ul>
+                  </div>
                 </nav>
-                <ul id="slide-out" class="sidenav">
-                    <li><a href="#item1">Item 1</a></li>
-                    <li><a href="#item2">Item 2</a></li>
-                    <li><a href="#item3">Item 3</a></li>
-                </ul>
+                <ul class="sidenav" id="mobile-demo">
+                  <li><a href="sass.html">Sass</a></li>
+                  <li><a href="badges.html">Components</a></li>
+                  <li><a href="collapsible.html">Javascript</a></li>
+                  <li><a href="mobile.html">Mobile</a></li>
+                </ul>             
             </div>
         )
     }
-}
+}        
+
+
+
+          

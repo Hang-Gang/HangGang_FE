@@ -1,0 +1,12 @@
+.carousel-item img{
+    max-height: 200px;
+    width:300px; 
+  }
+  
+  .carousel{
+    transform: translate(0px, -70px);
+  }
+
+  h3{
+      text-align: center; 
+  }
