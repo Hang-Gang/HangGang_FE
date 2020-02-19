@@ -15,11 +15,11 @@ export default class Navbar extends React.Component{
 
     render(){
         return( 
-            <div>
-                <nav>
+            <div class='navbar-fixed'>
+                <nav class='white'>
                   <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">Hang Gang</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a href="#!" class="black-text brand-logo">Hang Gang</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class=" black-text material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                       <li><a href="sass.html">Sass</a></li>
                       <li><a href="badges.html">Components</a></li>
