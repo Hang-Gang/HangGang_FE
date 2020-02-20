@@ -1,7 +1,7 @@
 import React from 'react' 
+import '../styles/plantHangers/plantHangerCards.css'
 
-
-export default class PlantHangerCard extends React.Component{
+export default class PlantHangerCards extends React.Component{
     constructor(){
         super()
     }

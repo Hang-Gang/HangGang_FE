@@ -1,4 +1,6 @@
 import React from 'react'
+import Carousel from '../carousel/carousel'
+import  '../styles/landing/landing.css'
 
 export default class Landing extends React.Component{
     constructor(){
@@ -7,7 +9,9 @@ export default class Landing extends React.Component{
 
     render(){
         return(
-            <div>Landing</div> 
+            <div>
+                <Carousel /> 
+            </div> 
         )
     }
 }

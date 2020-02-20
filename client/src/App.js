@@ -5,6 +5,7 @@ import Navbar from './components/nav/navbar.js'
 import Carousel from './components/carousel/carousel.js'
 import Login from './components/forms/login'
 import Register from './components/forms/register'
+import Landing from './components/landing/landing'
 import PlantHangerCards from './components/plantHangers/plantHangerCards'
 import WallHangerCards from './components/wallHangers/wallHangerCards'
 
